@@ -3,44 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página - Actividad 2</title>
-    <style>
-        /* Estilos para el menú de navegación */
-        nav {
-            display: flex;
-            gap: 20px; /* Espacio entre las opciones */
-            padding: 15px;
-            background-color: #f4f4f4;
-        }
+    <title>Laboratorio 6</title>
 
-        nav a {
-            text-decoration: none;
-            color: #333;
-            font-weight: bold;
-        }
-
-        /* Estilo para centrar la imagen */
-        .contenedor-imagen {
-            text-align: center;
-            margin: 20px 0;
-        }
-    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
+<body class="bg-light">
 
-        <h1>Actividad 2</h1>
-
-    <nav>
-        <a href="#">Página 1</a>
-        <a href="#">Página 2</a>
-        <a href="#">Página 3</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+        <div class="container">
+            <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                <a class="nav-link" href="pagina1.html">Página 1</a>
+                <a class="nav-link" href="pagina2.html">Página 2</a>
+                <a class="nav-link" href="pagina3.html">Página 3</a>
+            </div>
+        </div>
     </nav>
 
-    <!-- Imagen centrada -->
-    <div class="contenedor-imagen">
-        <!-- AQUÍ PONES EL NOMBRE DE TU IMAGEN -->
-        <img src="imagenes/imagen1.jpg">
+    <div class="container text-center mt-5">
+        <h1 class="display-4 fw-bold mb-4">Laboratorio 6</h1>
+        <p class="lead text-muted mb-5">Explorando el mundo de los lenguajes de programación.</p>
+        
+        <div class="my-4">
+            <img src="imagenes/imagen1.jpg" class="img-fluid rounded shadow-lg" style="max-height: 400px;" alt="Imagen principal de tecnología">
+        </div>
+
     </div>
 
+    <!-- Script de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
